@@ -1,0 +1,34 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+#search
+{
+  width:40%;
+}
+#bar 
+{
+  width:39%;
+  border: 2px solid black;
+}
+.item
+{
+  border:1px solid gray;
+  padding: 3px 5px;
+  margin:2px auto;
+  &:hover
+  {
+    color:red;
+  }
+  cursor:pointer;
+}
+#onlineImage
+{
+  display:none;
+}
+#span
+{
+  color:red;
+}
